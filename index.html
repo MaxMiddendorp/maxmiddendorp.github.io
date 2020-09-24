@@ -58,10 +58,10 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Over Mij</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#CV">CV</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#CV">CV</a>
           </li>
         </ul>
       </div>
@@ -237,54 +237,51 @@
   <!-- Contact Section -->
   <section id="contact">
     <div class="container text-white">
-      <h2 class="text-center text-secondary mb-5">Contact</h2>
-      <p class="text-center text-secondary mb-5" class="lead">
+      <h2 class="text-center text-secondary mb-5">Contact Me</h2>
+      <p id="center" class="lead">
         U kunt contact met mij opnemen via het formulier hieronder. 
-        <!-- <br/>
-        However, <em>if you have a question or require anything informal like help</em>, drop me a message on Twitter as I can reply a lot quicker! 
-        <br/>
-        <a href="https://twitter.com/JoshLmao">@JoshLmao</a> -->
       </p>
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <!-- Uses formspree.io to send the email since it's a static HTML page -->
-          <form action="https://formspree.io/xjvpvprv" method="POST" novalidate="novalidate">
+          <form action="https://formspree.io/maylykwe" method="POST" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label class="text-white">Naam</label>
-                <input class="form-control" id="name" type="text" placeholder="Naam" required="required" data-validation-required-message="Voer alstublieft uw naam in.">
+                <label class="text-white">Name</label>
+                <input class="form-control" id="Naam" type="text" placeholder="Naam" required="required" data-validation-required-message="Voer alstublieft uw naam in.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label class="text-white">Email Adres</label>
-                <input type="email" name="email" class="form-control" id="email" placeholder="Email Adres" required="required" data-validation-required-message="Voer alstublieft uw email adres in.">
+                <input type="email" name="Email-Sender" class="form-control" id="email" placeholder="Email Adres" required="required" data-validation-required-message="Voer alstublieft uw email in.">
                 <p class="help-block text-danger"></p>
               </div>
-            </div>
-            <!-- <div class="control-group">
+            <!-- </div>
+            <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2" style="border-bottom: 0px">
-                <input type="hidden" name="subject" value="Contact - Max Middendorp" />
-              </div> -->
-            </div>
+                <input type="hidden" name="_subject" value="Contact - JoshLmao" />
+              </div>
+            </div> -->
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label class="text-white">Bericht</label>
-                <textarea type="text" name="message" class="form-control" id="message" rows="5" placeholder="Bericht" required="required" data-validation-required-message="Voer alstublieft uw bericht in."></textarea>
+                <textarea type="text" name="name" class="form-control" id="message" rows="5" placeholder="Bericht" required="required" data-validation-required-message="Voer alstublieft uw bericht in."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" value="Send" id="knop"class="btn btn-primary btn-xl" id="sendMessageButton">Verstuur</button>
+              <button type="submit" value="Send" class="btn btn-primary btn-xl" id="sendMessageButton">Verstuur</button>
             </div>
           </form>
         </div>
       </div>
     </div>
   </section>
+
 
     <!-- CV Section -->
     <section class="bg-primary text-white mb-0" id="CV">

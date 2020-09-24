@@ -5,10 +5,14 @@
     margin-right: auto;
 }
 
-#wit{
+/* #wit{
     color: white;
-}
+} */
 
 #knop{
     background-color: #123;
+}
+
+#center{
+    text-align: center;
 }
