@@ -1,0 +1,14 @@
+#pdf{
+    height: 750px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wit{
+    color: white;
+}
+
+#knop{
+    background-color: #123;
+}
